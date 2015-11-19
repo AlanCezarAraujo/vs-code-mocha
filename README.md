@@ -2,7 +2,8 @@
 
 Mocha snippets based on [sublime text 2 snippets for mocha](https://github.com/lnikell/stylus-clean-completions).
 
-![screenshot](images/screenshot.jpg)
+![screenshot](images/screenshot1.jpg)
+![screenshot](images/screenshot2.jpg)
 
 ## Install
 
