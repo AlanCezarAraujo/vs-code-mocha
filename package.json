@@ -1,8 +1,8 @@
 {
-	"name": "Mocha Snippets",
+	"name": "MochaSnippets",
 	"description": "Mocha snippets for Visual Studio Code",
 	"version": "0.0.1",
-	"publisher": "Alan Cezar",
+	"publisher": "Alan",
 	"icon": "images/mocha-logo.png",
 	"galleyBanner": {
 		"color": "#FBFBFB",
