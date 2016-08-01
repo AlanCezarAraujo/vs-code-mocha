@@ -15,7 +15,7 @@ Open up VS Code and hit F1 then type *ext*, select *install* and type *mocha*. H
 
 ## Suggestions? Problems?
 
-Talk to me on [twitter](https://twitter.com/AlanCezarAraujo) or feel free to change the [source](https://github.com/AlanCezarAraujo/vs-code-stylus).
+Talk to me on [twitter](https://twitter.com/AlanCezarAraujo) or feel free to change the [source](https://github.com/AlanCezarAraujo/vs-code-mocha).
 
 ## Credits
 Many thanks to
