@@ -1,0 +1,71 @@
+{
+	"after": {
+		"prefix": "aftr",
+		"body": [
+			"after${1:Each}((${2:done}) => {",
+			"\t${3:}",
+			"});"
+		],
+		"description": "Mocha BDD: after() | afterEach()"
+	},
+	"before": {
+		"prefix": "befr",
+		"body": [
+			"before${1:Each}((${2:done}) => {",
+			"\t${3:}",
+			"});"
+		],
+		"description": "Mocha BDD: before() | beforeEach()"
+	},
+	"describe": {
+		"prefix": "desc",
+		"body": [
+			"describe('${1:what?}', () => {",
+			"\t${0:}",
+			"});"
+		],
+		"description": "Mocha BDD: describe()"
+	},
+	"context": {
+		"prefix": "cont",
+		"body": [
+			"context('${1:what?}', () => {",
+			"\t${0:}",
+			"});"
+		],
+		"description": "Mocha BDD: context() - alias for describe()"
+	},
+	"it": {
+		"prefix": "it",
+		"body": [
+			"it('${1:should do what...}', (${2:done}) => {",
+			"\t${0:}",
+			"});"
+		],
+		"description": "Mocha BDD: it()"
+	},
+	"suite": {
+		"prefix": "suite",
+		"body": [
+			"suite('${1:suiteName}', () => {",
+			"\t${2:setup(() => {",
+			"\t\t${3}",
+			"\t});}",
+			"\t${4:teardown(() => {",
+			"\t\t${5}",
+			"\t});}",
+			"\t${6}",
+			"});"
+		],
+		"description": "Mocha TDD: suite()"
+	},
+	"test": {
+		"prefix": "test",
+		"body": [
+			"test('${1:test}', (${2:done}) => {",
+			"\t${3}",
+			"});"
+		],
+		"description": "Mocha TDD: test()"
+	}
+}
