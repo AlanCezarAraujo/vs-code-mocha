@@ -9,13 +9,13 @@
 		"theme": "dark"
 	},
 	"bugs": {
-        "url": "https://github.com/AlanCezarAraujo/vs-code-mocha/issues"
-    },
-    "homepage": "https://github.com/AlanCezarAraujo/vs-code-mocha/blob/master/README.md",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/AlanCezarAraujo/vs-code-mocha.git"
-    },
+		"url": "https://github.com/AlanCezarAraujo/vs-code-mocha/issues"
+	},
+	"homepage": "https://github.com/AlanCezarAraujo/vs-code-mocha/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/AlanCezarAraujo/vs-code-mocha.git"
+	},
 	"engines": {
 		"vscode": "^0.10.1"
 	},
@@ -28,7 +28,7 @@
 				"language": "javascript",
 				"path": "./snippets/snippets.json"
 			},
-      {
+			{
 				"language": "javascriptreact",
 				"path": "./snippets/snippets.json"
 			}
